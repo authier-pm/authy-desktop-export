@@ -6,6 +6,7 @@ authy-desktop-export utility. Can be imported into [authier](https://www.authier
 
 - [authy-desktop-export](#authy-desktop-export)
 - [Prerequisites](#prerequisites)
+- [Install](#install)
 - [Usage](#usage)
 <!-- tocstop -->
 
@@ -20,7 +21,7 @@ authy-desktop-export utility. Can be imported into [authier](https://www.authier
 - On Mac: from Terminal.app: `open -a "Authy Desktop" --args --remote-debugging-port=5858`
 - On Linux, from a terminal: `authy --remote-debugging-port=5858`
 
-# Usage
+# Install
 
 <!-- usage -->
 
@@ -37,6 +38,8 @@ USAGE
 ```
 
 <!-- usagestop -->
+
+# Usage
 
 ```
 authy-desktop-export export my-authy_export.json
