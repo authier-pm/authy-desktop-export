@@ -25,7 +25,7 @@
     "@oclif/test": "^2",
     "@types/chai": "^4",
     "@types/chrome-remote-interface": "^0.31.4",
-    "@types/mocha": "^9.1.0",
+    "@types/mocha": "^9.1.1",
     "@types/node": "^17.0.16",
     "chai": "^4",
     "eslint": "^8.8.0",
