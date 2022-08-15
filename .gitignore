@@ -111,3 +111,5 @@ dist
 /tmp
 node_modules
 oclif.manifest.json
+
+au-export.json
