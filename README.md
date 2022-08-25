@@ -1,13 +1,14 @@
 # authy-desktop-export
 
-authy-desktop-export utility. Can be imported into [authier](https://www.authier.ml/) password manager.
+authy-desktop-export utility. Can be imported into [authier](https://www.authier.pm/) password manager.
 
 <!-- toc -->
+
 - [authy-desktop-export](#authy-desktop-export)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-<!-- tocstop -->
+  <!-- tocstop -->
 
 ## Prerequisites
 
@@ -22,25 +23,16 @@ authy-desktop-export utility. Can be imported into [authier](https://www.authier
 
 ## Install
 
-<!-- usage -->
 ```sh-session
 $ npm install -g authy-desktop-export
-$ authy-desktop-export COMMAND
-running command...
-$ authy-desktop-export (--version)
-authy-desktop-export/1.0.0 linux-x64 node-v16.15.0
-$ authy-desktop-export --help [COMMAND]
-USAGE
-  $ authy-desktop-export COMMAND
-...
 ```
-<!-- usagestop -->
 
 ## Usage
+
+Make sure your authy desktop is running with the debugging port open and run:
 
 ```
 authy-desktop-export export my-authy_export.json
 ```
 
 You should see your exported json file in the folder where you ran the command.
-
