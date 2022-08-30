@@ -56,7 +56,7 @@
     }
   },
   "scripts": {
-    "build": "tsc -b",
+    "build": "shx rm -rf dist && tsc -b",
     "watch": "tsc -b -w",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "postpack": "shx rm -f oclif.manifest.json",
