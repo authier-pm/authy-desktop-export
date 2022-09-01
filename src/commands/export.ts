@@ -29,6 +29,7 @@ export default class ExportFromAuthy extends Command {
       // the script is inspired from https://gist.github.com/gboudreau/94bb0c11a6209c82418d01a59d958c93
       expression: `
 // Based on https://github.com/LinusU/base32-encode/blob/master/index.js
+
 const hex_to_b32 = (hex) => {
   let alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ234567";
   let bytes = [];
@@ -57,10 +58,11 @@ const hex_to_b32 = (hex) => {
 
   return output;
 };
+
 JSON.stringify(appManager.getModel().map(function(i) {
     var secret = (i.markedForDeletion === false ? i.decryptedSeed : hex_to_b32(i.secretSeed));
     var period = (i.digits === 7 ? 10 : 30);
-    return {secret, period, originalName: i.originalName, createdDate: i.createdDate, digits: i.digits}
+    return {...i, secret}
 }))`
     })
 
