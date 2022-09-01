@@ -1,6 +1,6 @@
 {
   "name": "authy-desktop-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "utility to export TOTP secrets from a running authy desktop",
   "author": "Authier @authierpm",
   "bin": {
@@ -48,12 +48,7 @@
     "plugins": [
       "@oclif/plugin-help"
     ],
-    "topicSeparator": " ",
-    "topics": {
-      "hello": {
-        "description": "Say hello to the world and others"
-      }
-    }
+    "topicSeparator": " "
   },
   "scripts": {
     "build": "shx rm -rf dist && tsc -b",
