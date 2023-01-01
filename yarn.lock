@@ -693,10 +693,10 @@
   resolved "https://registry.yarnpkg.com/@types/chai/-/chai-4.3.3.tgz#3c90752792660c4b562ad73b3fbd68bf3bc7ae07"
   integrity sha512-hC7OMnszpxhZPduX+m+nrx+uFoLkWOMiR4oa/AZF3MuSETYTZmFfJAHqZEM8MVlvfG7BEUcgvtwoCTxBp6hm3g==
 
-"@types/chrome-remote-interface@^0.31.4":
-  version "0.31.4"
-  resolved "https://registry.yarnpkg.com/@types/chrome-remote-interface/-/chrome-remote-interface-0.31.4.tgz#d07b34f4af0c7294c5b0164780b3d7bfce078155"
-  integrity sha512-DJHDwimNqCgAyG5gFmr6Y265pe967u3mnkeMVc0iHuf04PHzTgFypA2AjxSvtkM/pogqWxvfRYXy9Wa5Dj0U1g==
+"@types/chrome-remote-interface@^0.31.8":
+  version "0.31.8"
+  resolved "https://registry.yarnpkg.com/@types/chrome-remote-interface/-/chrome-remote-interface-0.31.8.tgz#2ddd1f4bb990ff9e6d55d23c5d25df19906830c1"
+  integrity sha512-Htt8oN9aE4jU4hm3w3KwPpY/fnuq/qcNd+3UQIZPApHrK5NvUj89po3l94x6R1ruUYhUVLuLuXRbseuLPRDeTA==
   dependencies:
     devtools-protocol "0.0.927104"
 
