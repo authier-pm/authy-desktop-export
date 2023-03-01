@@ -19,7 +19,7 @@
   "dependencies": {
     "@oclif/core": "^1.16.5",
     "@oclif/plugin-help": "^5.1.15",
-    "chrome-remote-interface": "^0.31.3"
+    "chrome-remote-interface": "^0.32.1"
   },
   "devDependencies": {
     "@oclif/test": "^2.2.3",
