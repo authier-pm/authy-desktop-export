@@ -22,7 +22,7 @@
     "chrome-remote-interface": "^0.31.3"
   },
   "devDependencies": {
-    "@oclif/test": "^2.2.3",
+    "@oclif/test": "^2.3.8",
     "@types/chai": "^4.3.3",
     "@types/chrome-remote-interface": "^0.31.4",
     "@types/mocha": "^9.1.1",
