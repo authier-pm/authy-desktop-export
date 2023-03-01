@@ -17,7 +17,7 @@
     "/oclif.manifest.json"
   ],
   "dependencies": {
-    "@oclif/core": "^1.16.5",
+    "@oclif/core": "^1.26.2",
     "@oclif/plugin-help": "^5.1.15",
     "chrome-remote-interface": "^0.31.3"
   },
